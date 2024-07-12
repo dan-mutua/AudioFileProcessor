@@ -61,3 +61,26 @@ curl -X 'POST' \
   -H 'Content-Type: multipart/form-data' \
   -F 'charactername=example_character' \
   -F 'audio_file=@path_to_your_audio_file'
+```
+
+
+### Check Job Status via WebSocket
+
+- Endpoint: ws://127.0.0.1:8000/ws/{job_id}
+
+- Replace {job_id} with the ID received from the /convert/ endpoint.
+
+
+### Dependencies
+
+- FastAPI
+- aiofiles
+- pika
+- aioredis
+- redis
+- subprocess
+- uuid
+- os
+- json
+- asyncio
+- time

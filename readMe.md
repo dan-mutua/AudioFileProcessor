@@ -13,7 +13,7 @@ This project is a FastAPI application that processes audio files. Users can uplo
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/your-username/fastapi-audio-file-processor.git
+    git clone git@github.com:dan-mutua/AudioFileProcessor.git
     cd fastapi-audio-file-processor
     ```
 
